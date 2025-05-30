@@ -1,0 +1,185 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
+
+/* :root {
+    --pf-global--primary-color--100: #70088a !important;
+} */
+
+
+:root {
+    /* === PRIMARY COLORS (Gradiente principale viola-rosa) === */
+    --pf-global--primary-color--100: #8B5CF6;  /* Viola principale */
+    --pf-global--primary-color--200: #A855F7;  /* Viola medio */
+    --pf-global--primary-color--300: #C084FC;  /* Viola chiaro */
+    --pf-global--primary-color--400: #DDD6FE;  /* Viola molto chiaro */
+    --pf-global--primary-color--light-100: #F3F4F6;
+    --pf-global--primary-color--light-200: #E5E7EB;
+    --pf-global--primary-color--dark-100: #7C3AED;
+    --pf-global--primary-color--dark-200: #6D28D9;
+  
+    /* === SECONDARY COLORS (Accenti rosa/magenta) === */
+    --pf-global--secondary-color--100: #EC4899;  /* Rosa/magenta principale */
+    --pf-global--secondary-color--200: #F472B6;  /* Rosa medio */
+    --pf-global--secondary-color--300: #F9A8D4;  /* Rosa chiaro */
+  
+    /* === BACKGROUND COLORS (Tema scuro) === */
+    --pf-global--BackgroundColor--100: #0F0F23;     /* Background principale scuro */
+    --pf-global--BackgroundColor--200: #1A1A2E;     /* Background secondario */
+    --pf-global--BackgroundColor--300: #16213E;     /* Background per card/form */
+    --pf-global--BackgroundColor--dark-100: #0A0A1A;
+    --pf-global--BackgroundColor--dark-200: #050510;
+  
+    /* === TEXT COLORS === */
+    --pf-global--Color--100: #F8FAFC;          /* Testo principale bianco */
+    --pf-global--Color--200: #E2E8F0;          /* Testo secondario grigio chiaro */
+    --pf-global--Color--300: #94A3B8;          /* Testo muted/placeholder */
+    --pf-global--Color--400: #64748B;          /* Testo disabilitato */
+    --pf-global--Color--dark-100: #1E293B;     /* Testo scuro (per elementi chiari) */
+    --pf-global--Color--dark-200: #334155;
+  
+    /* === LINK COLORS === */
+    --pf-global--link--Color: #A855F7;         /* Link viola */
+    --pf-global--link--Color--hover: #C084FC;  /* Link hover viola chiaro */
+    --pf-global--link--Color--visited: #8B5CF6;
+  
+    /* === BORDER COLORS === */
+    --pf-global--BorderColor--100: #374151;    /* Border principale */
+    --pf-global--BorderColor--200: #4B5563;    /* Border hover/focus */
+    --pf-global--BorderColor--300: #6B7280;    /* Border attivo */
+    --pf-global--BorderColor--light-100: #D1D5DB;
+  
+    /* === SUCCESS COLORS === */
+    --pf-global--success-color--100: #10B981;  /* Verde successo */
+    --pf-global--success-color--200: #34D399;
+    --pf-global--success-color--300: #6EE7B7;
+  
+    /* === WARNING COLORS === */
+    --pf-global--warning-color--100: #F59E0B;  /* Arancione warning */
+    --pf-global--warning-color--200: #FBBF24;
+    --pf-global--warning-color--300: #FDE68A;
+  
+    /* === DANGER/ERROR COLORS === */
+    /* --pf-global--danger-color--100: #EF4444;   Rosso errore */
+    /* --pf-global--danger-color--200: #F87171; */
+    /* --pf-global--danger-color--300: #FCA5A5; */ 
+
+    --pf-global--danger-color--100: #f3549b;   /* Rosso errore */
+    --pf-global--danger-color--200: #f018ba;
+    --pf-global--danger-color--300: #f2a5fc;
+  
+    /* === INFO COLORS === */
+    --pf-global--info-color--100: #3B82F6;     /* Blu info */
+    --pf-global--info-color--200: #60A5FA;
+    --pf-global--info-color--300: #93C5FD;
+  
+    /* === FORM CONTROLS === */
+    --pf-global--FormControl--BorderColor: #374151;
+    --pf-global--FormControl--BorderColor--hover: #4B5563;
+    --pf-global--FormControl--BorderColor--focus: #8B5CF6;
+    --pf-global--FormControl--BackgroundColor: #1F2937;
+    --pf-global--FormControl--Color: #F8FAFC;
+  
+    /* === BUTTONS === */
+    --pf-global--Button--primary--BackgroundColor: linear-gradient(135deg, #8B5CF6 0%, #EC4899 100%);
+    --pf-global--Button--primary--BorderColor: transparent;
+    --pf-global--Button--primary--Color: #FFFFFF;
+    --pf-global--Button--primary--hover--BackgroundColor: linear-gradient(135deg, #7C3AED 0%, #DB2777 100%);
+    
+    --pf-global--Button--secondary--BackgroundColor: transparent;
+    --pf-global--Button--secondary--BorderColor: #8B5CF6;
+    --pf-global--Button--secondary--Color: #8B5CF6;
+    --pf-global--Button--secondary--hover--BackgroundColor: rgba(139, 92, 246, 0.1);
+  
+    /* === SHADOWS === */
+    --pf-global--BoxShadow--sm: 0 1px 2px 0 rgba(139, 92, 246, 0.1);
+    --pf-global--BoxShadow--md: 0 4px 6px -1px rgba(139, 92, 246, 0.2);
+    --pf-global--BoxShadow--lg: 0 10px 15px -3px rgba(139, 92, 246, 0.3);
+    --pf-global--BoxShadow--inset: inset 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+  
+    /* === GRADIENTS === */
+    --documinds-gradient-primary: linear-gradient(135deg, #8B5CF6 0%, #EC4899 100%);
+    --documinds-gradient-secondary: linear-gradient(135deg, #1A1A2E 0%, #16213E 100%);
+    --documinds-gradient-accent: linear-gradient(90deg, rgba(139, 92, 246, 0.1) 0%, rgba(236, 72, 153, 0.1) 100%);
+  
+    /* === BORDER RADIUS === */
+    --pf-global--BorderRadius--sm: 0.375rem;   /* 6px */
+    --pf-global--BorderRadius--md: 0.5rem;     /* 8px */
+    --pf-global--BorderRadius--lg: 0.75rem;    /* 12px */
+    --pf-global--BorderRadius--xl: 1rem;       /* 16px */
+  
+    /* === SPACING === */
+    --pf-global--spacer--xs: 0.25rem;    /* 4px */
+    --pf-global--spacer--sm: 0.5rem;     /* 8px */
+    --pf-global--spacer--md: 1rem;       /* 16px */
+    --pf-global--spacer--lg: 1.5rem;     /* 24px */
+    --pf-global--spacer--xl: 2rem;       /* 32px */
+    --pf-global--spacer--2xl: 3rem;      /* 48px */
+    --pf-global--spacer--3xl: 4rem;      /* 64px */
+    
+}
+
+.login-pf body {
+    /* background: #030303 !important; */
+    background: url("./assets/images/bg.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: left top !important;
+    background-size: 100% 100% !important;
+    background-color: #030303 !important;
+}
+
+.kcHeaderWrapperClass {
+    background-image: url("./assets/images/logo.svg") !important;
+    background-repeat: no-repeat;
+    background-size: 75px;
+    background-position: center top;
+
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100 !important;
+
+    padding: 80px 40px 20px !important; 
+}
+
+.kcFormCardClasskcFormCardClass .card-pf {
+    background: #030303 !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.kcFormCardClass .card-pf {
+    background: #030303 !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.required {
+    color: var(--pf-global--danger-color--200);
+}
+
+
+/* Form control invalid, removed the red icon image */
+.pf-c-form-control[aria-invalid="true"] {
+    background-image: none !important;
+}
+
+/* Locale dropdown */
+#kc-locale-dropdown button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: var(--pf-global--primary-color--dark-200);
+    text-align: right;
+    font-size: var(--pf-global--FontSize--sm);
+}
+
+/* Button */
+.pf-c-button.pf-m-block {
+
+    border-radius: 4px !important;
+    padding: 10px !important;
+}
